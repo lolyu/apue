@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lolyu/repo/apue/1-unix-system-overview/01_ls.c
+apue.h
+/home/lolyu/repo/apue/1-unix-system-overview/apue.h
+dirent.h
+-
+
+/home/lolyu/repo/apue/1-unix-system-overview/02_redirect.c
+apue.h
+/home/lolyu/repo/apue/1-unix-system-overview/apue.h
+
+/home/lolyu/repo/apue/1-unix-system-overview/03_redirect.c
+apue.h
+/home/lolyu/repo/apue/1-unix-system-overview/apue.h
+
+/home/lolyu/repo/apue/1-unix-system-overview/04_error.c
+apue.h
+/home/lolyu/repo/apue/1-unix-system-overview/apue.h
+error.h
+-
+

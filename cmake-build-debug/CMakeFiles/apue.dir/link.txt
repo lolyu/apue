@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/apue.dir/1-unix-system-overview/01_ls.c.o CMakeFiles/apue.dir/1-unix-system-overview/02_redirect.c.o CMakeFiles/apue.dir/1-unix-system-overview/03_redirect.c.o CMakeFiles/apue.dir/1-unix-system-overview/04_error.c.o  -o apue 
