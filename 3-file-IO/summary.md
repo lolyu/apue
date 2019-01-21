@@ -389,11 +389,13 @@ https://stackoverflow.com/questions/46206188/usage-of-dup2
 
 ## 3.5
 ```
-digit1 >&digit2     // redirect descriptor digit1 to the same file as digit2
+digit1 >&digit2     // redirect descriptor digit1 to the same file as digit2\
+                    // same as dup(digit2, digit1), so everything writes to digit2, will be
+                    // redirected to digit1
 ```
 
 ```
-# ./a.out > outfile 2>&1        // both 1, 2 point to the  outfile
+# ./a.out > outfile 2>&1        // both 1, 2 point to the  outfile, because everything directed to stderr will be directed to stdout
 # ./a.out 2>&1 > outfile        // 1 set to the outfile, 2 set to the terminal
 ```
 
